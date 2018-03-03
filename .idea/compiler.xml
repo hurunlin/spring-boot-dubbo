@@ -14,6 +14,7 @@
     <bytecodeTargetLevel>
       <module name="spring-boot-client" target="1.8" />
       <module name="spring-boot-consumer" target="1.8" />
+      <module name="spring-boot-dubbo" target="1.8" />
       <module name="spring-boot-parent" target="1.8" />
       <module name="spring-boot-server" target="1.8" />
     </bytecodeTargetLevel>

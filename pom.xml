@@ -12,7 +12,9 @@
     <!-- 模块管理 -->
     <modules>
         <module>spring-boot-parent</module>
-        <module>spring-boot-mybatis</module>
+        <module>spring-boot-client</module>
+        <module>spring-boot-consumer</module>
+        <module>spring-boot-server</module>
     </modules>
 
     <!-- 全局属性 -->
