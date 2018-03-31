@@ -22,6 +22,12 @@
         <version.commons.io>2.5</version.commons.io>
         <version.dubbo-spring-boot>1.0.0</version.dubbo-spring-boot>
 
+        <!-- 对内版本 -->
+        <version.spring.boot.client>1.0-SNAPSHOT</version.spring.boot.client>
+        <version.spring.boot.consumer>1.0-SNAPSHOT</version.spring.boot.consumer>
+        <version.spring.boot.common>1.0-SNAPSHOT</version.spring.boot.common>
+        <version.spring.boot.framework>1.0-SNAPSHOT</version.spring.boot.framework>
+
         <!-- 插件版本 -->
         <version.spring.boot.plugin>1.5.4.RELEASE</version.spring.boot.plugin>
         <version.maven.clean.plugin>3.0.0</version.maven.clean.plugin>
@@ -79,6 +85,32 @@
                 <groupId>io.dubbo.springboot</groupId>
                 <artifactId>spring-boot-starter-dubbo</artifactId>
                 <version>${version.dubbo-spring-boot}</version>
+            </dependency>
+
+            <!-- ################################# 内部jar包 ################################# -->
+            <!-- client -->
+            <dependency>
+                <groupId>com.spring.boot.client</groupId>
+                <artifactId>spring-boot-client</artifactId>
+                <version>${version.spring.boot.client}</version>
+            </dependency>
+            <!-- consumer -->
+            <dependency>
+                <groupId>com.spring.boot.consumer</groupId>
+                <artifactId>spring-boot-consumer</artifactId>
+                <version>${version.spring.boot.consumer}</version>
+            </dependency>
+            <!-- common -->
+            <dependency>
+                <groupId>com.spring.boot.common</groupId>
+                <artifactId>spring-boot-common</artifactId>
+                <version>${version.spring.boot.common}</version>
+            </dependency>
+            <!-- framework -->
+            <dependency>
+                <groupId>com.spring.boot.framework</groupId>
+                <artifactId>spring-boot-framework</artifactId>
+                <version>${version.spring.boot.framework}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
