@@ -15,6 +15,7 @@
         <module>spring-boot-client</module>
         <module>spring-boot-consumer</module>
         <module>spring-boot-server</module>
+        <module>spring-boot-common</module>
     </modules>
 
     <!-- 全局属性 -->

@@ -21,7 +21,6 @@
     </properties>
 
     <dependencies>
-
         <dependency>
             <groupId>com.spring.boot.consumer</groupId>
             <artifactId>spring-boot-consumer</artifactId>

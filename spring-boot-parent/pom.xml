@@ -10,6 +10,8 @@
     <packaging>pom</packaging>
 
     <properties>
+
+        <!-- 对外jar包版本 -->
         <version.spring.boot.dependencies>1.5.1.RELEASE</version.spring.boot.dependencies>
         <version.java>1.8</version.java>
         <version.druid>1.1.0</version.druid>
@@ -19,6 +21,12 @@
         <version.commons-configuration>1.10</version.commons-configuration>
         <version.commons.io>2.5</version.commons.io>
         <version.dubbo-spring-boot>1.0.0</version.dubbo-spring-boot>
+
+        <!-- 插件版本 -->
+        <version.spring.boot.plugin>1.5.4.RELEASE</version.spring.boot.plugin>
+        <version.maven.clean.plugin>3.0.0</version.maven.clean.plugin>
+        <version.maven.compiler.plugin>3.2</version.maven.compiler.plugin>
+        <version.maven.surefire.plugin>2.19</version.maven.surefire.plugin>
     </properties>
 
     <dependencyManagement>
@@ -52,7 +60,7 @@
             <!--commons -->
             <dependency>
                 <groupId>org.apache.commons</groupId>
-                <artifactId>commons-lang</artifactId>
+                <artifactId>commons-lang3</artifactId>
                 <version>${version.common.lang}</version>
             </dependency>
             <dependency>
@@ -80,6 +88,7 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>${version.spring.boot.plugin}</version>
                 <configuration>
                     <executable>true</executable>
                 </configuration>
@@ -88,13 +97,13 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-clean-plugin</artifactId>
-                <version>3.0.0</version>
+                <version>${version.maven.clean.plugin}</version>
             </plugin>
             <!-- 编译 -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.2</version>
+                <version>${version.maven.compiler.plugin}</version>
                 <configuration>
                     <source>${version.java}</source>
                     <target>${version.java}</target>
@@ -105,7 +114,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.19</version>
+                <version>${version.maven.surefire.plugin}</version>
                 <configuration>
                     <skipTests>true</skipTests>
                 </configuration>
