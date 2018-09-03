@@ -7,14 +7,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-boot-client" />
+        <module name="spring-boot-common" />
         <module name="spring-boot-consumer" />
+        <module name="spring-boot-framework" />
         <module name="spring-boot-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="spring-boot" target="1.8" />
       <module name="spring-boot-client" target="1.8" />
+      <module name="spring-boot-common" target="1.8" />
       <module name="spring-boot-consumer" target="1.8" />
       <module name="spring-boot-dubbo" target="1.8" />
+      <module name="spring-boot-framework" target="1.8" />
       <module name="spring-boot-parent" target="1.8" />
       <module name="spring-boot-server" target="1.8" />
     </bytecodeTargetLevel>
