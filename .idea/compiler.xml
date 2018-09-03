@@ -7,7 +7,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-boot-client" />
-        <module name="spring-boot-common" />
         <module name="spring-boot-consumer" />
         <module name="spring-boot-framework" />
         <module name="spring-boot-server" />

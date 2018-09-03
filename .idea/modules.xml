@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/spring-boot.iml" filepath="$PROJECT_DIR$/spring-boot.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-client/spring-boot-client.iml" filepath="$PROJECT_DIR$/spring-boot-client/spring-boot-client.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-boot-common/spring-boot-common.iml" filepath="$PROJECT_DIR$/spring-boot-common/spring-boot-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-consumer/spring-boot-consumer.iml" filepath="$PROJECT_DIR$/spring-boot-consumer/spring-boot-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-framework/spring-boot-framework.iml" filepath="$PROJECT_DIR$/spring-boot-framework/spring-boot-framework.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-parent/spring-boot-parent.iml" filepath="$PROJECT_DIR$/spring-boot-parent/spring-boot-parent.iml" />
