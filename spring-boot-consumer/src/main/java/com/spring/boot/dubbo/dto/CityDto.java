@@ -1,4 +1,4 @@
-package com.spring.boot.dubbo.domain;
+package com.spring.boot.dubbo.dto;
 
 import java.io.Serializable;
 
@@ -7,7 +7,7 @@ import java.io.Serializable;
  * <p>
  * Created by bysocket on 07/02/2017.
  */
-public class City implements Serializable {
+public class CityDto implements Serializable {
 
     private static final long serialVersionUID = -1L;
 
@@ -31,10 +31,10 @@ public class City implements Serializable {
      */
     private String description;
 
-    public City() {
+    public CityDto() {
     }
 
-    public City(Long id, Long provinceId, String cityName, String description) {
+    public CityDto(Long id, Long provinceId, String cityName, String description) {
         this.id = id;
         this.provinceId = provinceId;
         this.cityName = cityName;

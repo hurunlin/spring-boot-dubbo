@@ -1,8 +1,8 @@
 package com.spring.boot.dubbo.client.service;
 
 import com.alibaba.dubbo.config.annotation.Reference;
-import com.spring.boot.dubbo.domain.City;
-import com.spring.boot.dubbo.interfaces.CityDubboService;
+import com.spring.boot.dubbo.dto.CityDto;
+import com.spring.boot.dubbo.remote.CityDubboService;
 import org.springframework.stereotype.Component;
 
 /**
@@ -11,14 +11,14 @@ import org.springframework.stereotype.Component;
  * Created by bysocket on 28/02/2017.
  */
 @Component
-public class CityDubboConsumerService {
+public class TestConsumerService {
 
     @Reference(version = "1.0.0")
-    CityDubboService cityDubboService;
+    private CityDubboService cityDubboService;
 
-    public void printCity() {
+    public CityDto printCity() {
         String cityName = "温岭";
-        City city = cityDubboService.findCityByName(cityName);
-        System.out.println(city.toString());
+        CityDto city = cityDubboService.findCityByName(cityName);
+        return city;
     }
 }

@@ -1,7 +1,7 @@
 package com.spring.boot.dubbo.service.impl;
 
 import com.spring.boot.dubbo.dao.CityDao;
-import com.spring.boot.dubbo.domain.City;
+import com.spring.boot.dubbo.entity.City;
 import com.spring.boot.dubbo.service.CityService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

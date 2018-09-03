@@ -1,6 +1,6 @@
 package com.spring.boot.dubbo.dao;
 
-import com.spring.boot.dubbo.domain.City;
+import com.spring.boot.dubbo.entity.City;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

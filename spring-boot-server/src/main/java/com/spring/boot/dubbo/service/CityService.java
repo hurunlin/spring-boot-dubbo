@@ -1,7 +1,7 @@
 package com.spring.boot.dubbo.service;
 
 
-import com.spring.boot.dubbo.domain.City;
+import com.spring.boot.dubbo.entity.City;
 
 import java.util.List;
 
